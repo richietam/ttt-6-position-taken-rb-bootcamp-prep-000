@@ -1,8 +1,8 @@
 # code your #position_taken? method here!
-def position_taken?(array, index)
-  if array[index] == "X" || "O"
+def position_taken?(board, index)
+  if board[index] == "X" || "O"
     true
-  elsif array[index] == " " || "" || nil
+  elsif board[index] == " " || "" || nil
     false
   end
 end
