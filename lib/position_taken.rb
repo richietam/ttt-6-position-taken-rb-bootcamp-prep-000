@@ -1,10 +1,10 @@
 # code your #position_taken? method here!
 def position_taken?(array, index)
   if array[index] == " " || "" || nil
-    false
+    puts false
   elsif array[index] == "X"
-    true
+    puts true
   elsif array[index] == "O"
-    true
+    puts true
   end
 end
